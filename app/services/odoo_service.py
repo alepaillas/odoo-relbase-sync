@@ -59,7 +59,7 @@ class OdooProductAPI:
             domain = [('type', '=', 'product')]
             
         if fields is None:
-            fields = ['id', 'name', 'default_code', 'list_price', 'categ_id', 
+            fields = ['id', 'name', 'default_code', 'list_price', 'standard_price', 'categ_id', 
                      'qty_available', 'description', 'barcode']
             
         products = self.models.execute_kw(

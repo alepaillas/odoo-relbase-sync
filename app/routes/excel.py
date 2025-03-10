@@ -47,7 +47,7 @@ def get_products():
     
     return jsonify(result)
 
-@excel_bp.route('/products/<codigo>', methods=['GET'])
+@excel_bp.route('/products/code/<codigo>', methods=['GET'])
 def get_product_by_code(codigo):
     """Get product by its code"""
     current_stock_df, _ = load_excel_data()
