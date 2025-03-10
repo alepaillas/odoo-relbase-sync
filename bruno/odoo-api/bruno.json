@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "odoo-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

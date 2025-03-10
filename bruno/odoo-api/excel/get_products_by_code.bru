@@ -1,0 +1,15 @@
+meta {
+  name: get_products_by_code
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://127.0.0.1:5000/api/products/:code
+  body: none
+  auth: none
+}
+
+params:path {
+  code: 
+}
